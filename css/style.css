@@ -1,0 +1,363 @@
+
+body {
+    font-family: "Futura";
+}
+
+
+
+
+.hero {
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:#eee;
+    height: 85vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100vw;
+}
+
+hr {
+    border: 3px solid #1A936F;
+    width: 100px;
+    
+}
+
+
+#icon-3 {
+    margin-right: 50%;
+} 
+
+
+#icon-2 {
+    margin-bottom: 90px;
+}
+
+#icon {
+    margin-left: 50%;
+}
+
+
+.info {
+    height: 150px;
+    color: #fff;
+    display: flex;
+    flex-flow: row;
+    min-height: 100%; 
+    
+    
+    
+}
+
+
+.col-md-3 {
+    padding-top: 20px;
+    background-color: hsl(0, 0%, 30%);
+    background-blend-mode: overlay;
+    height: 30vh;
+}
+
+.col-md-3:hover {
+    cursor: pointer;
+    background-blend-mode: normal;
+
+    
+}
+
+.col-md-3:nth-child(1) {
+ background-image: url("/images/wheel.jpg");
+ background-size: cover;
+}
+
+.col-md-3:nth-child(2) {
+background-image: url("/images/concert.jpg");
+ background-size: cover;
+}
+
+.col-md-3:nth-child(3) {
+background-image: url("/images/food.jpg");
+ background-size: cover;
+    
+}
+.col-md-3:nth-child(4) {
+background-image: url("/images/cow.jpg");
+ background-size: cover;
+    
+}
+
+
+.col-img {
+    background-image: url("/images/color1.jpg");
+    background-size:cover;
+    background-blend-mode: overlay;
+    height: 100vh;
+     background-color: #04212B;
+    display: flex; 
+   align-items: center;
+ flex-wrap: nowrap;
+    
+}
+
+.col-img-text {
+    height: 100vh;
+    background-image: url("/images/color.jpg");
+    background-size: cover;
+    
+    background-color: #F5F5F5;
+    color: #000 !important;
+    display: flex;
+    justify-content: center;
+      flex-flow: column;
+  
+}
+
+.col-img-music {
+     background-image: url("/images/concert2.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+   background-color: #04212B;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+     color: #eee;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 30px;
+    
+  
+}
+
+.col-img-food {
+     background-blend-mode: overlay;
+    background-image: url("/images/truck.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-color: #04212B;
+     color: #333;
+    line-height: 220%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  
+}
+
+.col-food-text {
+     color: #333;
+    line-height: 220%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 40px;
+}
+
+
+
+.col-img-text p {
+    color: #666;
+    line-height: 220%;
+}
+
+
+
+.col-img-info {
+   
+    height: 100vh;
+    background-color: #000;
+     color: #eee;
+    line-height: 220%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 60px;
+    text-align: center;
+    
+  
+}
+
+.footer {
+    height: 30vh;
+    background: #eee;
+}
+
+
+.vertical {
+    transform: rotate(270deg);
+}
+
+
+h1 {
+    font-family:"Futura" !important;
+	font-weight: 300;
+    color: #1A936F !important;
+    font-size: 4.5em;
+    margin: 20px;
+    
+} 
+
+h2 {
+    font-family: "Futura" !important;
+    color: #1A936F !important;
+    font-size: 3.5em;
+}
+
+#welcome {
+    
+    color: #1A936F;
+    
+}
+
+.btn-sections {
+
+    background-color:#1A936F;
+    opacity: 0.85;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 40px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+
+.btn-cta {
+    border-radius:2px;
+    background-color: #1A936F;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    height: 50px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}
+
+.btn-cta:hover {
+    box-shadow: none;
+    width: 149px;
+}
+
+
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+
+
+
+
+
+.parallax {
+     /* Full height 
+    
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.footer {
+
+height: 16vh;
+background-color: #114B5F;
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: center;
+font-size: 1em;
+color: #1A936F;
+    
+    
+}
+
+ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    
+    
+}
+
+a {
+    color: #1A936F ;
+}
+
+a:hover {
+    color: #1A936F ;
+}
+
+/*media querie breakpoints */
+
+@media screen and (max-width: 800px) {
+    
+    h1 {
+        font-size: 3.1em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+    
+   
+}
+
+@media screen and (max-width: 767px) {
+    
+    .info {
+        
+         display: flex;
+    flex-flow: column;
+    min-height: 100vh; /* this*/
+    }
+    
+    .col-food-text {
+        font-size: 0.8em;
+    }
+    
+    .footer {
+        height: 15vh;
+    }
+	
+	
+}
+
+@media screen and (max-width: 576px) {
+    
+    h1 {
+        font-size: 2.1em;
+    }
+    
+   
+    
+    p {
+        font-size: 0.9em;
+    }
+    
+  
+    .footer {
+        
+        font-size: 1em;
+        display: flex;
+        height: 10vh;
+		padding-top: 20px;
+	}
+		
+		.veg-info {
+			margin: 10px;
+		}
+    }
+	
+	
+   
+}
