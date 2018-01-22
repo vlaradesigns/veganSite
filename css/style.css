@@ -3,9 +3,19 @@ body {
     font-family: "Futura";
 }
 
+#open {
+	padding: 20px 30px;
+	position: fixed;
+    top: 0; /* Stay at the top */
+    right: 0;
+	cursor: pointer;
+	z-index: 100;
 
+}
 
-
+.fa-2x {
+	color:#1A936F;
+}
 .hero {
     background-size: cover;
     background-blend-mode: overlay;
@@ -17,9 +27,50 @@ body {
     align-items: center;
 }
 
-main {
-    width: 100vw;
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #1A936F; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
 }
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+	z-index: 1000000;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+
+
+
 
 hr {
     border: 3px solid #1A936F;
@@ -195,7 +246,7 @@ h1 {
     font-family:"Futura" !important;
 	font-weight: 300;
     color: #1A936F !important;
-    font-size: 4.5em;
+    font-size: 6.0em;
     margin: 20px;
     
 } 
@@ -233,7 +284,7 @@ h2 {
     height: 50px;
     color: #000;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin: 20px;
     
 }
 
@@ -302,7 +353,7 @@ a:hover {
 @media screen and (max-width: 800px) {
     
     h1 {
-        font-size: 3.1em;
+        font-size: 5.1em;
     }
     
     p {
@@ -329,13 +380,17 @@ a:hover {
         height: 15vh;
     }
 	
+	 h1 {
+        font-size: 4.1em;
+    }
+	
 	
 }
 
 @media screen and (max-width: 576px) {
     
     h1 {
-        font-size: 2.1em;
+        font-size: 3.1em;
     }
     
    
@@ -361,3 +416,8 @@ a:hover {
 	
    
 }
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
