@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+}
+
+
+body {
+	background: #eee;
+	margin: 0;
+	font-family: "Futura";
+}
+
+.card {
+	  display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background: #fff;
+	border: none;
+	-webkit-box-shadow: 10px 9px 26px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 9px 26px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 9px 26px -15px rgba(0,0,0,0.75);
+	height: 250px;
+	padding: 50px;
+	margin-top: 40px;
+	color: #666;
+		line-height: 250%;
+
+	
+	
+}
+
+.btn-custom {
+	background: #1A936F;
+	-webkit-box-shadow: 10px 9px 26px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 9px 26px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 9px 26px -15px rgba(0,0,0,0.75);
+	border-radius: 0px;
+	color: #eee;
+}
+
+a:hover {
+	color: #eee;
+}
+
+
+.btn-custom:hover {
+	box-shadow: none;
+	
+}
+
+.container-fluid {
+	 height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-flow: row;
+}
+
+.row {
+	align-self: flex-start;
+}
+
+
+.fa-github-alt {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #666;
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+.fa-github-alt:hover {
+	opacity: 1;
+}

@@ -16,6 +16,61 @@ body {
 .fa-2x {
 	color:#1A936F;
 }
+
+.fa-2x:hover {
+	color:#000;
+}
+
+.mod-img {
+	font-size: 1.4em;
+	padding: 
+}
+
+.btn-modal {
+	border-radius: 0px;
+	background: #1A936F;
+}
+
+.modal-content {
+	border-radius: 0px;
+	text-align: center;
+	
+}
+
+.form-control{
+	border-radius: 0px;
+	font-size: 0.8em;
+	border-top: none;
+	border-left: none;
+	border-right:none;
+
+
+}
+
+label {
+font-size: 0.9em;
+
+}
+
+.modal-header {
+ border-bottom: none;
+	
+}
+
+.modal-body {
+	font-size: 0.9em;
+}
+
+.form-group {
+	color: #666;
+}
+
+.close {
+	color: #000;
+
+}
+
+
 .hero {
     background-size: cover;
     background-blend-mode: overlay;
@@ -38,7 +93,7 @@ body {
     background-color: #1A936F; 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 .sidenav a {
@@ -390,7 +445,7 @@ a:hover {
 @media screen and (max-width: 576px) {
     
     h1 {
-        font-size: 3.1em;
+        font-size: 2.1em;
     }
     
    
@@ -402,17 +457,43 @@ a:hover {
   
     .footer {
         
-        font-size: 1em;
         display: flex;
-        height: 10vh;
-		padding-top: 20px;
+        height: 20vh;
+		
 	}
 		
 		.veg-info {
 			margin: 10px;
 		}
-    }
+    
+
+
+	.btn-cta {
+    border-radius:2px;
+    background-color: #1A936F;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 90px;
+    height: 40px;
+    color: #000;
+    text-transform: uppercase;
+    margin: 20px;
+	font-size: 0.8em
+    
+}
 	
+	.btn-cta:hover {
+    border-radius:2px;
+    background-color: #1A936F;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 90px;
+    height: 40px;
+    color: #000;
+    text-transform: uppercase;
+    margin: 20px;
+	font-size: 0.8em
+    
+}
+
 	
    
 }
@@ -421,3 +502,8 @@ a:hover {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 } 
+
+
+
+
+
