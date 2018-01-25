@@ -3,6 +3,13 @@ body {
     font-family: "Futura";
 }
 
+/*
+img {
+	width:100%;
+	height: auto;
+}
+*/
+
 #open {
 	padding: 20px 30px;
 	position: fixed;
@@ -35,6 +42,7 @@ body {
 	border-radius: 0px;
 	text-align: center;
 	
+	
 }
 
 .form-control{
@@ -59,6 +67,7 @@ font-size: 0.9em;
 
 .modal-body {
 	font-size: 0.9em;
+	
 }
 
 .form-group {
@@ -175,29 +184,29 @@ hr {
 }
 
 .col-md-3:nth-child(1) {
- background-image: url("/images/wheel.jpg");
+ background-image: url("../images/wheel.jpg");
  background-size: cover;
 }
 
 .col-md-3:nth-child(2) {
-background-image: url("/images/concert.jpg");
+background-image: url("../images/concert.jpg");
  background-size: cover;
 }
 
 .col-md-3:nth-child(3) {
-background-image: url("/images/food.jpg");
+background-image: url("../images/food.jpg");
  background-size: cover;
     
 }
 .col-md-3:nth-child(4) {
-background-image: url("/images/cow.jpg");
+background-image: url("../images/cow.jpg");
  background-size: cover;
     
 }
 
 
 .col-img {
-    background-image: url("/images/color1.jpg");
+    background-image: url("../images/color1.jpg");
     background-size:cover;
     background-blend-mode: overlay;
     height: 100vh;
@@ -210,7 +219,7 @@ background-image: url("/images/cow.jpg");
 
 .col-img-text {
     height: 100vh;
-    background-image: url("/images/color.jpg");
+    background-image: url("../images/color.jpg");
     background-size: cover;
     
     background-color: #F5F5F5;
@@ -222,7 +231,7 @@ background-image: url("/images/cow.jpg");
 }
 
 .col-img-music {
-     background-image: url("/images/concert2.jpg");
+     background-image: url("../images/concert2.jpg");
     background-size: cover;
     background-blend-mode: overlay;
    background-color: #04212B;
@@ -241,7 +250,7 @@ background-image: url("/images/cow.jpg");
 
 .col-img-food {
      background-blend-mode: overlay;
-    background-image: url("/images/truck.jpg");
+    background-image: url("../images/truck.jpg");
     background-size: cover;
     height: 100vh;
     background-color: #04212B;
@@ -273,17 +282,27 @@ background-image: url("/images/cow.jpg");
 
 .col-img-info {
    
+	background-image: url("../images/map.png");
+    height: 100vh;
+	background-size: cover;
+	
+	  display: flex;
+    justify-content: center;
+    flex-flow: column;
+   
+  
+    
+  
+}
+
+.col-info {
     height: 100vh;
     background-color: #000;
      color: #eee;
-    line-height: 220%;
-    display: flex;
+  	display: flex;
     justify-content: center;
     flex-flow: column;
-    padding: 60px;
-    text-align: center;
-    
-  
+   	text-align: center;
 }
 
 .footer {
@@ -494,7 +513,14 @@ a:hover {
     
 }
 
+	.modal-content {
+	border-radius: 0px;
+	text-align: center;
+		width: 100%;
+		margin: 0px;
 	
+	
+}
    
 }
 
